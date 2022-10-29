@@ -1,0 +1,13 @@
+@use './modules/ColorPalette' as Color; 
+@use './modules/variable';
+@use './modules/mixins';
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    //background-color: #efefef;
+    background: transparent;
+}

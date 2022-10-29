@@ -1,0 +1,17 @@
+@use '../../modules/ColorPalette' as Color; 
+@use '../../modules/variable';
+@use '../../modules/mixins';
+
+
+.Container {
+    @include mixins.Flexbox_BoxSizing;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Empty {
+    width: 100%;
+    margin: 15em;
+    text-align: center;
+}
